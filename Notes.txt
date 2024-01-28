@@ -68,6 +68,15 @@ The Print() Method
                     * Even without adding anything between them.
                     */
             
+Java identifiers 
+    All java variables must be identified with unique names
+      the unique names are called identifiers.
+
+    They can be short like; i, j, x or more 
+       descriptive names like; age, sum, price etc.
+    NOTE: It's recommended to use descriptive names in order to create  understandable code 
+                and maintainable code.
+
 
 
 
