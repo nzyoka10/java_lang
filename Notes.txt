@@ -1,0 +1,73 @@
+JAVA Syntax
+    Main.java
+        public class Main 
+        {
+            public static void main(String[] args) 
+            {
+                System.out.println("Hello World");
+            }
+        }
+
+A class MUST always start with and UPPERCASE first letter.
+    Eg;- Main.java
+
+NOTE: Java is case sensitive:
+    "MyClass" 
+        and
+    "myclass" ---> has different meaning.
+
+The name of the java file must match the class name.
+
+## The main Method
+    public static void main(String[] args)
+        This method is where the program starts executing from when you run a Java application. 
+        It's called by the JVM (Java Virtual Machine).
+        - String[] args : An array of strings that contains the command line arguments passed to the program. If no arguments are provided, it will be an empty array.
+
+    - Main() method is required & used in every Java program.
+
+    System.out.println()
+        Used to display any output on console.
+        Example:
+        // System.out.println("Hello World");
+
+Java Output / Print
+    Print Text
+    - println() method is used to output values 
+        Example
+            System.out.println("Hello World!");
+            System.out.println("I am learning Java.");
+            System.out.println("It is awesome!");
+    
+    Double Quotes
+    - When you are working with text, it must be wrapped inside double quotations marks "".
+    - If you forget the double quotes, an error occurs:
+        System.out.println("This sentence will work!"); // correct 
+        System.out.println(This sentence will produce an error); // error occurs
+
+The Print() Method
+    There is also a print() method, which is similar to println().
+        The only difference is that it does not insert a new line at the end of the output:
+            Example
+            System.out.print("Hello World! ");
+            System.out.print("I will print on the same line.");
+    
+    Java Comments
+        Comments can be used to explain Java code, and to make it more readable. 
+            It can also be used to prevent execution when testing alternative code.
+            1. Single Line Comments start with two slash characters //.
+                Example: 
+                    // This is a single-line comment.
+                        int x = 5;   // Another single-line comment.
+
+            2. Multi-Line Comments start with /* and end with */.
+                Example:  
+                    /*  
+                    * This is a multi-line comment.
+                    * You can write as many lines as you want.
+                    * Even without adding anything between them.
+                    */
+            
+
+
+
