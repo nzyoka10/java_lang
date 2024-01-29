@@ -46,6 +46,22 @@ public class Strings
             String txt21 = "Please locate where 'locate' occurs!";
             System.out.println(txt21.indexOf("locate"));   // Outputs: 7 (position of 'locate')
 
-        //
+        //^ ------ Java String Concatenation --------------------------------
+            // the + operator is used between strings to combine them 
+            // this is called CONCATENATION
+
+            //~ Example below: 
+                String firstName = "Eric";
+                String secondName = "Nzyoka";
+
+                System.out.println("\n String concatenation!");
+                System.out.println("Full name: " + firstName + " " + secondName + ".");
+            
+            //~ also use the concat() method to concatenate two strings
+                String nameFirst = "John";
+                String nameSecond = "Joe";
+                System.out.println("Name 2: "+ nameFirst.concat( nameSecond));
+
+            System.out.println();
     }
 }
