@@ -14,7 +14,7 @@ public class Operators
     **            Arithmetic operators ----> +, -, *, /, %, ++, --, 
     **            Assignment operators ---> =, +=, -=, *=, %=, /=, &=, |=, ^=, >>=, <<=
     **            Comparison operators ---> !=, <, >, <=, >=, ==
-    **            Logical operators  --->  
+    **            Logical operators  --->  &&, ||, !
     **            Bitwise operators
             
             
@@ -33,6 +33,10 @@ public class Operators
         int decrement = sum--;
 
         System.out.println("Sum of a and b is: " + sum + ""); //~ Output: 12
+        System.out.println(5 * 2); // Output: 10
+        System.out.println(9 % 4); // Output: 1
+        
+
       /**
        *  System.out.println("Multiply a and b: " + multiply + ""); //~ Output: 32
             System.out.println("Divide sum and b: " + division + ""); //~ Output: 1
@@ -58,7 +62,14 @@ public class Operators
             int myNum3 = 7;
             System.out.println(myNum2 > myNum3); // Returns: TRUE , 10>7
         
-        //
+        //^ --------- Logical Operators --------
+            //*  also used to compare two variables 
+                //~ Logical AND (&&) --> returns true if both statements are true
+                //~ Logical OR (||)  --> returns true if one of the statement is true
+                //~ Logical NOT (!) --> reverse the result, if true then false and if flase then true
+        
+        
+
 
         
 
