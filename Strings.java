@@ -43,7 +43,9 @@ public class Strings
             //* indexOf() method --> returns the position (index) of the first character of 
             //* a text in the string --- including whitespaces
             // example below
+            String txt21 = "Please locate where 'locate' occurs!";
+            System.out.println(txt21.indexOf("locate"));   // Outputs: 7 (position of 'locate')
 
-    
+        //
     }
 }
