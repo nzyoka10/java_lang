@@ -26,6 +26,20 @@ public class NumbersAndStrings
             String z2 = x2 + y2;
             System.out.println(z2);
 
-        //
+        /*
+         * * ----------   Java special Characters -------
+         * // strings must be written within quotes,
+         * // Java :: will throw an error here..
+         *!     String txt = "Hello Kenya, "located" in Africa!"
+         * &      The above statement will give an error because of the use of ":" instead of
+         *          the use of (\)  `backslash` escape character avoids above error
+         *       \'  Single quote '
+         *        \\' Double quote '
+         *         \\  Backslash 
+         *    
+        */
+            String txt = "We are the so-called \"Vikings\" from the north.";
+            System.out.println(txt);
+
     }
 }
