@@ -4,7 +4,8 @@
  * Types of variables: 
  *      - String: store text value. i.e:. "value" 
  *      - int: stores integers (whole numbers) without decimal point. i.e:. 2, 67, 894, -45
- *      - float/ double: stores real number with decimal points. i.e:. 19.9 or -2.4
+ *      - float: stores real number with decimal points. i.e:. 19.9 or -2.4
+ *      - double: stores real number with decimal points and can have more precision than float. i.e.: 3.1415933......
  *      - char: stores single characters. i.e:. 'a', 'B' --> Char values are surrounded by single quotes
  *      - boolean: stores values with two states; True, False
  *~
